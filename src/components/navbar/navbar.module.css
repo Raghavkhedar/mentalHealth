@@ -2,8 +2,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #646cff;
+    background: white;
     height: 10vh;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.options {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50rem;
+}
+.options li {
+    postion: relative;
+    padding: 0 0.5em;
+}
 
