@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar/Navbar.jsx";
 import LandingPage from "./pages/LandingPage.jsx";
+import Footer from "./components/footer/footer.jsx";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div>
         <Navbar/>
         <LandingPage/>
+        <Footer/>
     </div>
   )
 }
