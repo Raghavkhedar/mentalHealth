@@ -45,7 +45,6 @@ const Footer = () => {
                         src="https://assets-global.website-files.com/630d06d6fb092a27172aa8b9/64ace387f8eba1208e16cf4d_LinkedIn.svg"
                         alt="linkden logo"/>
                 </div>
-
             </div>
         </div>
     )
