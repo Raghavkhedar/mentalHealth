@@ -8,7 +8,7 @@ const Hero2 = () => {
                 <p>Taking good care of your mental health has never been <br/>more important. 
                 Here’s a quick video about how Calm Health<br/> can help.</p>
             </div>
-            <div className={styles.vid}><VideoPlayer /></div>
+            <div className={styles.video}><VideoPlayer /></div>
         </div>
     )
 }

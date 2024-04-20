@@ -4,10 +4,30 @@
     /* justify-content: center; */
     align-items: left;
     height:50vh;
-    background: #AEE2FF;
+    background: #e5f3ff;
     padding-left: 250px;
     padding-top:100px;
 }
-.vid{
-    padding-left:100px;
+.video {
+    padding-left: 100px;
+    position: relative;
 }
+  
+  .video::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/cover.png'); /* URL of your cover picture */
+    background-size: cover;
+    background-position: center;
+    z-index: 1; /* Ensure the cover picture is behind the video */
+  }
+  
+  .video {
+    position: relative;
+    z-index: 2; /* Ensure the video is on top of the cover picture */
+  }
+  
