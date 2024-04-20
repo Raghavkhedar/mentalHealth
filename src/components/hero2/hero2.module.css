@@ -1,7 +1,8 @@
 .hero{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: left;
     height:50vh;
     background: #5c5c5c;
 }
