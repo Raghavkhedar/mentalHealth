@@ -3,5 +3,23 @@
     justify-content: center;
     align-items: center;
     height: 200vh;
-    background: #242424;
+    background: white;
+}
+
+.container{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+
+.row1{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.image1{
+  height: 460px;
+  width: 500px;
 }
