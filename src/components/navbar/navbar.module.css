@@ -1,9 +1,38 @@
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: #646cff;
+    justify-content: space-between;
+    background: white;
     height: 10vh;
+
 }
 
+.marker {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+.mid {
+    padding: 10px;
+}
 
+.container2{
+    padding-left: 30px;
+}
+.container3 {
+    padding-right: 40px;
+}
+.custom {
+    background-color: deepskyblue; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around text */
+    text-align: center; /* Center text horizontally */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Make button behave like an inline element */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border-radius: 10px; /* Rounded corners */
+}
