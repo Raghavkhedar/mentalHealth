@@ -1,10 +1,11 @@
 import styles from './navbar.module.css'
+import logo from '../../assets/logo.png'
 const Navbar = () => {
     return (
             <div className={styles.navbar}>
 
                 <div className={styles.container1}>
-                    <img src="" alt=""/>
+                    <img src={logo} alt="" className={styles.logo}/>
                 </div>
 
                 <div className={styles.container2}>

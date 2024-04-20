@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background: white;
-    height: 10vh;
+    height: 13vh;
 
 }
 
@@ -13,13 +13,20 @@
     justify-content: space-between;
     flex-direction: row;
     padding: 10px;
+    font-size: 1.2rem;
+
 }
 .mid {
     padding: 10px;
 }
-
+.logo{
+    padding-left: 120px;
+    height: 100px;
+    width: 110px;
+}
 .container2{
     padding-left: 30px;
+    padding-right: 800px;
     cursor: pointer;
 }
 .container3 {
