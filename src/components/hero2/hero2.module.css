@@ -1,32 +1,41 @@
 .hero{
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    align-items: left;
-    height:50vh;
+    align-items: center;
+    height:63vh;
     background-color: #e5f3ff;
-    padding-left: 250px;
-    padding-top:100px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+
 }
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.subset{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px;
+}
+.heading{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: Avenirnext, sans-serif;
+}
+
+.para{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Avenirnext, sans-serif;
+
+}
+
 .video {
+    transition: transform 1s cubic-bezier(.175, .885, .32, 1.275);
     padding-left: 100px;
     position: relative;
 }
-  
-  .video::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('./assets/cover.png'); /* URL of your cover picture */
-    background-size: cover;
-    background-position: center;
-    z-index: 1; /* Ensure the cover picture is behind the video */
-  }
-  
-  .video {
-    position: relative;
-    z-index: 2; /* Ensure the video is on top of the cover picture */
-  }
-  
