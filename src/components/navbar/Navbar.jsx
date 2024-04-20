@@ -1,32 +1,26 @@
 import styles from './navbar.module.css'
-import heart from '../../assets/heart-wings-angel-svgrepo-com.png'
-
 const Navbar = () => {
     return (
-        <div className={styles.navbar}>
-            <div className = {styles.container}>
+            <div className={styles.navbar}>
 
-                <div className ={styles.logo}>
-
-                    <img  src={heart} alt="" style={{height:'10rem', width: '10rem'}}/>
-
+                <div className={styles.container1}>
+                    <img src="" alt=""/>
                 </div>
 
-                <div >
-                    <ul className={styles.options}>
-                        <li>About Us</li>
-                        <li>Resources</li>
-                        <li>Support</li>
-                        <li>Counselling</li>
-                        <li>Wellness Tools</li>
-                        <li>Blog</li>
-                        <li>Events</li>
-                        <li>Contacts Us</li>
+                <div className={styles.container2}>
+                    <ul className={styles.marker}>
+                        <li className={styles.mid}>About Us</li>
+                        <li className={styles.mid}>Resources</li>
+                        <li className={styles.mid}>Wellness Tools</li>
+                        <li className={styles.mid}>Blog</li>
                     </ul>
                 </div>
 
+                <div className={styles.container3}>
+                    <button className={styles.custom}>Log in</button>
+                </div>
+
             </div>
-        </div>
     )
 }
 export default Navbar
