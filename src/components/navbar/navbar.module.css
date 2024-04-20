@@ -1,37 +1,39 @@
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: white;
     height: 10vh;
+
 }
-.container1{
-    padding-left: 5rem;
-}
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-}
-.container3{
-    padding-right: 3rem;
-}
-.options {
+
+.marker {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    padding-left: 50rem;
-    padding-right: 5rem;
+    padding: 10px;
+}
+.mid {
+    padding: 10px;
+}
+
+.container2{
+    padding-left: 30px;
     cursor: pointer;
-    font-family: Bahnschrift;
 }
-.options li {
-    postion: relative;
-    padding: 10px ;
-    font-size: 16px;
-    font-weight:400;
+.container3 {
+    padding-right: 40px;
 }
-.navbar1 {
-    color: deepskyblue;
+.custom {
+    background-color: deepskyblue; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around text */
+    text-align: center; /* Center text horizontally */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Make button behave like an inline element */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border-radius: 10px; /* Rounded corners */
 }
