@@ -4,8 +4,8 @@ const Hero2 = () => {
     return (
         <div className={styles.hero}>
             <div><h1>Introducing MindWell</h1></div>
-            <div><p>Taking good care of your mental health has never been more important. 
-                Here’s a quick video about how Calm Health can help.</p></div>
+            <div><p>Taking good care of your mental health has never been <br/>more important. 
+                Here’s a quick video about how Calm Health<br/> can help.</p></div>
         </div>
     )
 }
