@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58vh;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0rem 1.5rem 0rem;
+    /*gap: 1rem;*/
+    width: 80%;
+}
+
+.line {
+    border-bottom: 1px solid grey;
+    width: 80%;
+}
+
+.footer_lower {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 14rem;
+
+}
+
+.footer_lower_lower {
+    display: flex;
+}
+
+.footer_lower_lower p {
+    margin-right: 2rem;
+}
