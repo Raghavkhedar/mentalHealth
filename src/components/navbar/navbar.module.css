@@ -5,23 +5,33 @@
     background: white;
     height: 10vh;
 }
-
+.container1{
+    padding-left: 5rem;
+}
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
+    height: 10vh;
 }
-
+.container3{
+    padding-right: 3rem;
+}
 .options {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     padding-left: 50rem;
+    padding-right: 5rem;
+    cursor: pointer;
+    font-family: Bahnschrift;
 }
 .options li {
     postion: relative;
-    padding: 0 0.5em;
+    padding: 10px ;
+    font-size: 16px;
+    font-weight:400;
 }
-
+.navbar1 {
+    color: deepskyblue;
+}

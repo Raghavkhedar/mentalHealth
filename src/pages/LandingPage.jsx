@@ -8,6 +8,7 @@ import Hero6 from "../components/hero6/Hero6.jsx";
 
 
 
+
 const LandingPage = () => {
     return (
         <div>
@@ -17,6 +18,7 @@ const LandingPage = () => {
             <Hero4/>
             <Hero5/>
             <Hero6/>
+
         </div>
     )
 }
