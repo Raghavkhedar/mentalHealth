@@ -1,10 +1,9 @@
 .hero{
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: left;
     height:50vh;
-    background: #e5f3ff;
+    background-color: #e5f3ff;
     padding-left: 250px;
     padding-top:100px;
 }

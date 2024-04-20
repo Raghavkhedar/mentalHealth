@@ -10,7 +10,7 @@ const Navbar = () => {
 
                 <div className={styles.container2}>
                     <ul className={styles.marker}>
-                        <li className={styles.mid}>About Us</li>
+                        <li className={styles.mid} style={{color: 'deepskyblue'}} >About Us</li>
                         <li className={styles.mid}>Resources</li>
                         <li className={styles.mid}>Wellness Tools</li>
                         <li className={styles.mid}>Blog</li>
