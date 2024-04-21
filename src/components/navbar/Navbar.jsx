@@ -18,7 +18,7 @@ const Navbar = () => {
                 </div>
 
                 <div className={styles.container3}>
-                    <button className={styles.custom}>Log in</button>
+                    <button className={styles.custom}>Emergency</button>
                 </div>
 
             </div>
