@@ -21,12 +21,12 @@ const Hero3 = () => {
                 </div>
 
                 <div className={styles.row2}>
+                    <div>
+                        <img src={row2} alt="" className={styles.image2}/>
+                    </div>
                     <div className={styles.text2}>
                         <h1>Easily screen your population for
                             anxiety and depression</h1>
-                    </div>
-                    <div>
-                        <img src={row2} alt="" className={styles.image2}/>
                     </div>
                 </div>
 
@@ -41,12 +41,12 @@ const Hero3 = () => {
                 </div>
 
                 <div className={styles.row4}>
+                    <div>
+                        <img src={row4} alt="" className={styles.image4}/>
+                    </div>
                     <div className={styles.text4}>
                         <h1>Easily screen your population for
                             anxiety and depression</h1>
-                    </div>
-                    <div>
-                        <img src={row4} alt="" className={styles.image4}/>
                     </div>
                 </div>
 

@@ -10,8 +10,7 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  height: 100%;
-
+  padding: 300px;
 }
 
 .row1{
@@ -19,8 +18,44 @@
   justify-content: center;
   flex-direction: row;
 }
+.row2{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.row3{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.row4{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.row5{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
 
 .image1{
+  height: 250px;
+  width: 400px;
+}
+.image2{
+  height: 300px;
+  width: 400px;
+}
+.image3{
+  height: 250px;
+  width: 400px;
+}
+.image4{
+  height: 250px;
+  width: 400px;
+}
+.image5{
   height: 250px;
   width: 400px;
 }
