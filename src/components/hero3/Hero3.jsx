@@ -12,8 +12,7 @@ const Hero3 = () => {
             <div className={styles.container}>
                 <div className={styles.row1}>
                     <div className={styles.text1}>
-                        <h1>Easily screen your population for
-                            anxiety and depression</h1>
+                        <h1>Virtual peer group sessions</h1>
                     </div>
                     <div>
                         <img src={row1} alt=""  className={styles.image1}/>
@@ -25,15 +24,13 @@ const Hero3 = () => {
                         <img src={row2} alt="" className={styles.image2}/>
                     </div>
                     <div className={styles.text2}>
-                        <h1>Easily screen your population for
-                            anxiety and depression</h1>
+                        <h1>One to one counselling sessions with skilled councellors</h1>
                     </div>
                 </div>
 
                 <div className={styles.row3}>
                     <div className={styles.text3}>
-                        <h1>Easily screen your population for
-                            anxiety and depression</h1>
+                        <h1>Mood trackers for self improvement and personalised MindBot</h1>
                     </div>
                     <div>
                         <img src={row3} alt="" className={styles.image3}/>
@@ -45,8 +42,7 @@ const Hero3 = () => {
                         <img src={row4} alt="" className={styles.image4}/>
                     </div>
                     <div className={styles.text4}>
-                        <h1>Easily screen your population for
-                            anxiety and depression</h1>
+                        <h1>One stop for all mental health related issues</h1>
                     </div>
                 </div>
 

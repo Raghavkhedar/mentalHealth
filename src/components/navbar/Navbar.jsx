@@ -14,6 +14,7 @@ const Navbar = () => {
                         <li className={styles.mid}>Resources</li>
                         <li className={styles.mid}>Wellness Tools</li>
                         <li className={styles.mid}>Blog</li>
+                        <li className={styles.mid}>Mood Tracker</li>
                     </ul>
                 </div>
 

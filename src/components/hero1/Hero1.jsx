@@ -9,15 +9,14 @@ const handleClick = () => {
         <div className={styles.hero}>
             <div className={styles.main}>
                 <h1 className={styles.heading1}>
-                    Because mind and body are connected
+                    We care about you
                 </h1>
 
                 <h1 className={styles.heading2}>
-                    Calm Health offers evidence-based mental health programs and tools focused on anxiety and depression
-                    that are designed to support payers, plan sponsors, and providers.
+                    MindBot, specially designed for you to interact and share your thoughts
                 </h1>
 
-                <button className={styles.button} onClick={handleClick}>Request Information</button>
+                <button className={styles.button} onClick={handleClick}>MindBot</button>
             </div>
         </div>
 
