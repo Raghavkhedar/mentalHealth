@@ -21,19 +21,43 @@ const Hero3 = () => {
                 </div>
 
                 <div className={styles.row2}>
-
+                    <div className={styles.text2}>
+                        <h1>Easily screen your population for
+                            anxiety and depression</h1>
+                    </div>
+                    <div>
+                        <img src={row2} alt="" className={styles.image2}/>
+                    </div>
                 </div>
 
                 <div className={styles.row3}>
-
+                    <div className={styles.text3}>
+                        <h1>Easily screen your population for
+                            anxiety and depression</h1>
+                    </div>
+                    <div>
+                        <img src={row3} alt="" className={styles.image3}/>
+                    </div>
                 </div>
 
                 <div className={styles.row4}>
-
+                    <div className={styles.text4}>
+                        <h1>Easily screen your population for
+                            anxiety and depression</h1>
+                    </div>
+                    <div>
+                        <img src={row4} alt="" className={styles.image4}/>
+                    </div>
                 </div>
 
                 <div className={styles.row5}>
-
+                    <div className={styles.text5}>
+                        <h1>Easily screen your population for
+                            anxiety and depression</h1>
+                    </div>
+                    <div>
+                        <img src={row5} alt="" className={styles.image5}/>
+                    </div>
                 </div>
             </div>
 
